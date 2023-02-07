@@ -1318,138 +1318,171 @@
 
       <h1 class="titulo-skills mt-5" id="projetos">Projetos</h1>
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/blog.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Blog App</h5>
-              <p><span class="nodejs">NodeJS</span> <span class="bootstrap">BootStrap</span>  <span class="mongoose">Mongoose</span></p>
-              <p class="card-text">Uma aplicação feita em NodeJS de um pequeno blog onde podemos cadastrar categoria e cadastrar as postagens nesta categorias</p>
-              <div class="button-div">
-                <a href="https://blogapp-production-f005.up.railway.app/" class="btn" target="_blank">
-                  <div>Acessar</div>
-                </a>
-                <div>
-                  <a href="https://github.com/AlanAlmeida8245/BlogApp" target="_blank">
-                    <img src="icons/211904_social_github_icon.png" alt="" width="50px">
+      <nav aria-label="Navegação de página exemplo">
+        <ul class="pagination justify-content-center">
+    
+          <li class="page-item"><a class="page-link" style="color: purple
+            ;" onclick="alternarPagina(1)">1</a></li>
+          <li class="page-item"><a class="page-link"  style="color: purple
+            ;" onclick="alternarPagina(2)">2</a></li>
+
+        </ul>
+      </nav>
+
+      <div id="page-1" data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/Costs.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Costs - Gerenciamento de Projetos</h5>
+                <p><span class="reactjs">ReactJS</span> <span class="nodejs">NodeJs</span>  <span class="mongoose">Mongoose</span></p>
+                <p class="card-text">Uma aplicação feita em ReactJS e com NodeJS e MongoDB no Back-End onde você pode criar um projeto com determinado orçamento e adicionando serviços com custos que vão consumindo o orçamento final</p>
+                <div class="button-div">
+                  <a href="https://cost-dlopwlj70-alanalmeida8245.vercel.app/" class="btn" target="_blank">
+                    <div>Acessar</div>
+                  </a>
+                  <div>
+                    <a href="https://github.com/AlanAlmeida8245/Cost" target="_blank">
+                      <img src="icons/211904_social_github_icon.png" alt="" width="50px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/blog.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blog App</h5>
+                <p><span class="nodejs">NodeJS</span> <span class="bootstrap">BootStrap</span>  <span class="mongoose">Mongoose</span></p>
+                <p class="card-text">Uma aplicação feita em NodeJS de um pequeno blog onde podemos cadastrar categoria e cadastrar as postagens nesta categorias</p>
+                <div class="button-div">
+                  <a href="https://blogapp-production-f005.up.railway.app/" class="btn" target="_blank">
+                    <div>Acessar</div>
+                  </a>
+                  <div>
+                    <a href="https://github.com/AlanAlmeida8245/BlogApp" target="_blank">
+                      <img src="icons/211904_social_github_icon.png" alt="" width="50px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/cardapio online.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cardapio Online</h5>
+                <p><span class="nodejs">NodeJS</span> <span class="bootstrap">BootStrap</span> <span class="mongoose">Mongoose</span></p>
+                <p class="card-text">Aplicação feita em NodeJS de um Cardapio online onde podemos adicionar/editar e remover o produto e efetuar sua compra</p>
+                <div class="button-div" id="breve">
+                  <button class= "Danger">Em Breve</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/TodoList.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lista de Tarefas</h5>
+                <p><span class="reactjs">ReactJS</span></p>
+                <p class="card-text">Praticando usando ReactJS, fiz um ToDo List onde adiciona tarefa e altera os estados dela</p>
+                <div class="button-div">
+                    <a href="https://todo-list-react-js-sage.vercel.app/" class="btn">
+                    <div>Acessar</div>
+                  </a>
+                  <a href="https://github.com/AlanAlmeida8245/TodoList-ReactJS" target="_blank">
+                    <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/landingpage-academia.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page de Academia</h5>
+                <p><span class="reactjs">ReactJS</span></p>
+                <p class="card-text">Uma Landing page simples para uma academia usando ReactJS</p>
+                <div class="button-div">
+                    <a href="https://landing-page-academia-cyan.vercel.app/" class="btn">
+                    <div>Acessar</div>
+                  </a>
+                  <a href="https://github.com/AlanAlmeida8245/Landing-Page-Academia" target="_blank">
+                    <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/conversor.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Conversor de Moedas</h5>
+                <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
+                <p class="card-text">Projeto feito usando HTML,Css e JavaScript obtendo dados de uma API que retona os valores das moedas</p>
+                <div class="button-div">
+                  <a href="https://alanalmeida8245.github.io/Conversor-de-Moeda/" class="btn" target="_blank">
+                    <div>Acessar</div>
+                  </a>
+                  <a href="https://github.com/AlanAlmeida8245/Conversor-de-Moeda" target="_blank">
+                    <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+        </div>
+      </div>
+
+      <div id="page-2" data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/contador.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Contador Regressivo de acordo com data selecionada</h5>
+                <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
+                <p class="card-text">Contador regressivo que mostra dias, horas, minutos e segundos faltando para a data digitada no input</p>
+                <div class="button-div">
+                  <a href="https://contador-regressivo.vercel.app/" class="btn" target="_blank">
+                    <div>Acessar</div>
+                  </a>
+                  <a href="https://github.com/AlanAlmeida8245/Contador-Para-Ano-Novo">
+                    <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="zoom-in">
+            <div class="card">
+              <img src="imagens/calculadora.png" class="card-img-top" alt="..." width="300px" height=""300px>
+              <div class="card-body">
+                <h5 class="card-title">Calculadora</h5>
+                <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
+                <p class="card-text">essa calculadora foi um dos meus primeiros projetos utilizando JavaScript, foi uma calculadora simples mas muito funcional feita com HTML, CSS e JavaScript</p>
+                <div class="button-div">
+                  <a href="https://alanalmeida8245.github.io/Calculadora/" class="btn" target="_blank">
+                    <div>Acessar</div>
+                  </a>
+                  <a href="https://github.com/AlanAlmeida8245/Calculadora">
+                    <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/cardapio online.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cardapio Online</h5>
-              <p><span class="nodejs">NodeJS</span> <span class="bootstrap">BootStrap</span> <span class="mongoose">Mongoose</span></p>
-              <p class="card-text">Aplicação feita em NodeJS de um Cardapio online onde podemos adicionar/editar e remover o produto e efetuar sua compra</p>
-              <div class="button-div" id="breve">
-                <button class= "Danger">Em Breve</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/TodoList.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lista de Tarefas</h5>
-              <p><span class="reactjs">ReactJS</span></p>
-              <p class="card-text">Praticando usando ReactJS, fiz um ToDo List onde adiciona tarefa e altera os estados dela</p>
-              <div class="button-div">
-                  <a href="https://todo-list-react-js-sage.vercel.app/" class="btn">
-                  <div>Acessar</div>
-                </a>
-                <a href="https://github.com/AlanAlmeida8245/TodoList-ReactJS" target="_blank">
-                  <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/landingpage-academia.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Landing Page de Academia</h5>
-              <p><span class="reactjs">ReactJS</span></p>
-              <p class="card-text">Uma Landing page simples para uma academia usando ReactJS</p>
-              <div class="button-div">
-                  <a href="https://landing-page-academia-cyan.vercel.app/" class="btn">
-                  <div>Acessar</div>
-                </a>
-                <a href="https://github.com/AlanAlmeida8245/Landing-Page-Academia" target="_blank">
-                  <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/conversor.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Conversor de Moedas</h5>
-              <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
-              <p class="card-text">Projeto feito usando HTML,Css e JavaScript obtendo dados de uma API que retona os valores das moedas</p>
-              <div class="button-div">
-                <a href="https://alanalmeida8245.github.io/Conversor-de-Moeda/" class="btn" target="_blank">
-                  <div>Acessar</div>
-                </a>
-                <a href="https://github.com/AlanAlmeida8245/Conversor-de-Moeda" target="_blank">
-                  <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/contador.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Contador Regressivo de acordo com data selecionada</h5>
-              <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
-              <p class="card-text">Contador regressivo que mostra dias, horas, minutos e segundos faltando para a data digitada no input</p>
-              <div class="button-div">
-                <a href="https://contador-regressivo.vercel.app/" class="btn" target="_blank">
-                  <div>Acessar</div>
-                </a>
-                <a href="https://github.com/AlanAlmeida8245/Contador-Para-Ano-Novo">
-                  <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col" data-aos="zoom-in">
-          <div class="card">
-            <img src="imagens/calculadora.png" class="card-img-top" alt="..." width="300px" height=""300px>
-            <div class="card-body">
-              <h5 class="card-title">Calculadora</h5>
-              <p><span class="html">HTML</span> <span class="css">CSS</span>  <span class="javascript">JavaScript</span></p>
-              <p class="card-text">essa calculadora foi um dos meus primeiros projetos utilizando JavaScript, foi uma calculadora simples mas muito funcional feita com HTML, CSS e JavaScript</p>
-              <div class="button-div">
-                <a href="https://alanalmeida8245.github.io/Calculadora/" class="btn" target="_blank">
-                  <div>Acessar</div>
-                </a>
-                <a href="https://github.com/AlanAlmeida8245/Calculadora">
-                  <div><img src="icons/211904_social_github_icon.png" alt="" width="50px"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-       
       </div>
 
       <div class="container">
